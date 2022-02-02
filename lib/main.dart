@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
-        '/': (context) =>const EmiDetailsEditScreen(),
+        '/': (context) =>const SuccessScreen(),
          '/onBoard': (context) => const OnBoard(),
          '/signIn': (context) => const SignInScreen(),
          '/loginForm': (context) => const LoginForm(),

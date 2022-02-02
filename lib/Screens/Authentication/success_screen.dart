@@ -45,7 +45,7 @@ class SuccessScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              const Spacer(),
+              SizedBox(height: 50,),
               ButtonGlobalWithoutIcon(
                   buttontext: 'Continue',
                   buttonDecoration:
